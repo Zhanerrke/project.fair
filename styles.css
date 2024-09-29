@@ -1,0 +1,146 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.feel{
+    text-shadow: 3px 3px 5px black;
+}
+
+/* Navigation */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .logo {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color:blue;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/headph.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 75px;
+}
+
+.hero .btn {
+    background: #ff5757;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 3px 3px 5px black;
+}
+.hero .btn:hover{
+    transform: scale(1.05);
+}
+
+.hero .btn:hover {
+    background-color: blue;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #aaa;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-nav a {
+    margin: 0 15px;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.contact-info a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.copyright p {
+    margin-top: 10px;
+    font-size: 12px;
+}
